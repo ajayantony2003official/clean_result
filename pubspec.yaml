@@ -4,6 +4,7 @@ description: "A lightweight Dart utility for result-based business logic,
   for clean architecture."
 version: 0.0.2
 homepage: https://pub.dev/packages/clean_result
+repository: https://github.com/ajayantony2003official/clean_result.git
 
 environment:
   sdk: ^3.10.3
