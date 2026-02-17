@@ -9,3 +9,9 @@
 - Added ResultMapper for clean result transformation
 - Added ApiExecutor for safe async execution
 - Added BusinessException for business-level errors
+
+## 1.0.0
+- Initial stable release
+- Added ApiExecutor for safe API execution
+- Handles timeout, network, and business exceptions
+- Provides Result-based success and failure handling
