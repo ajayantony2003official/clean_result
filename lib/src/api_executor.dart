@@ -1,5 +1,8 @@
 // lib/src/api_executor.dart
 
+import 'dart:async';
+import 'dart:io';
+
 import 'result.dart';
 import 'business_exception.dart';
 
@@ -27,6 +30,10 @@ class ApiExecutor {
       }
 
       return Success(response);
+    } on TimeoutException {
+      rethrow; // 🔥 VERY IMPORTANT
+    } on SocketException {
+      rethrow; // 🔥 VERY IMPORTANT
     } catch (e, stackTrace) {
       if (e is BusinessException) {
         return Failure(e.message);

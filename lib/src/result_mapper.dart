@@ -53,4 +53,3 @@ extension ResultMapper<T> on Result<T> {
     throw StateError('Unhandled Result type');
   }
 }
-  

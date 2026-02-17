@@ -2,7 +2,7 @@ name: clean_result
 description: "A lightweight Dart utility for result-based business logic,
   providing Success/Failure modeling and clean result mapping
   for clean architecture."
-version: 0.0.2
+version: 1.0.0
 homepage: https://pub.dev/packages/clean_result
 repository: https://github.com/ajayantony2003official/clean_result.git
 
