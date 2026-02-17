@@ -23,5 +23,5 @@ Framework-agnostic. Predictable. Simple.
 
 ```yaml
 dependencies:
-  clean_result: ^0.0.2
+  clean_result: ^1.0.0
 # clean_result
